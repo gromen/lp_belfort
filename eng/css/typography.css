@@ -1,0 +1,135 @@
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url("font/Roboto-Regular.ttf");
+	}
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url("font/Roboto-Black.ttf");
+	}
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url("font/Roboto-Bold.ttf");
+	}
+@font-face {
+	font-family: 'Poly-Regular';
+	src: url("font/Poly-Regular.ttf");
+	}
+
+.Roboto-Regular{
+	font-weight: 400;
+	font-family: 'Roboto-Regular';
+	font-style:normal;
+}
+.Roboto-Bold{
+	font-weight: 700;
+	font-family: 'Roboto-Bold';
+	font-style:normal;
+}
+.Roboto-Black{
+	font-weight: 900;
+	font-family: 'Roboto-Black';
+	font-style:normal;
+}
+.Poly-Regular{
+	font-weight: 400;
+	font-family: 'Poly-Regular';
+	font-style:normal;
+}
+.font-17{
+	font-size:17px;
+}
+.font-20{
+	font-size:20px;
+}
+.font-24{
+	font-size:24px;
+}
+.font-27{
+	font-size:27px;
+}
+.font-30{
+	font-size:30px;
+}
+.font-33{
+	font-size:33px;
+}
+.font-36{
+	font-size:36px;
+}
+.font-40{
+	font-size:40px;
+}
+.font-48{
+	font-size:48px;
+}
+.font-50{
+	font-size:50px;
+}
+.font-55{
+	font-size:55px;
+}
+.font-60{
+	font-size:60px;
+}
+.font-63{
+	font-size:63px;
+}
+.font-66{
+	font-size:66px;
+}
+.font-79{
+	font-size:79px;
+}
+.font-82{
+	font-size:82px;
+}
+.font-110{
+	font-size:110px;
+}
+.font-279{
+	font-size:279px;
+	margin:-34px auto;
+}
+/* general */
+.uppercase{
+	text-transform:uppercase
+}
+.line-height-40{
+	line-height: 40px
+}
+.line-height-24{
+	line-height: 24px;
+}
+.letter-spacing-m50{
+	letter-spacing: -50px;
+}
+.letter-spacing-m22{
+	letter-spacing: -22px;
+}
+.text-shadow{
+	text-shadow:2px 3px 6px #85969f, 0px 0px 30px #ffffff;
+}
+.align-center{
+	text-align: center;
+}
+.align-right{
+	text-align: right;
+}
+.align-left{
+	text-align: left;
+}
+.color-white{
+	color: #ffffff;
+}
+.color-black{
+	color: #000000;
+}
+.color-grey{
+	color:#707070;
+}
+.color-orange{
+	color:#eba91e;
+}
+.color-blue{
+	color:#00679a;
+}
