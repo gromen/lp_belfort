@@ -1,423 +1,505 @@
 img {
-    height: auto;
-    max-width: 100%;
-    border: 0px none;
-    vertical-align: bottom;
-	}
-.wrap{
-	margin: 0px auto;
-	width: 980px;
-	}
+  height: auto;
+  max-width: 100%;
+  border: 0px none;
+  vertical-align: bottom;
+}
+
+.wrap {
+  margin: 0px auto;
+  width: 980px;
+}
+
 .clear {
-	clear: both;
-	display: block;
-    overflow: hidden;
-    visibility: hidden; 
-    width: 0px;
-    height: 0px;
-   }
-.margin-top-10{
-	margin-top: 10px;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
 }
-.margin-top-20{
-	margin-top:20px
+
+.margin-top-10 {
+  margin-top: 10px;
 }
-.margin-top-50{
-	margin-top:50px
+
+.margin-top-20 {
+  margin-top: 20px;
 }
-.margin-left-50{
-	margin-left: 50px;
+
+.margin-top-50 {
+  margin-top: 50px;
 }
-.margin-left-100{
-	margin-left: 100px;
+
+.margin-left-50 {
+  margin-left: 50px;
 }
-.margin-bottom-50{
-	margin-bottom: 50px;
+
+.margin-left-100 {
+  margin-left: 100px;
 }
-.margin-tb-m34{
-	margin: -34px 0;
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
 }
-.width-580{
-	width:580px;
-	float:left
+
+.margin-tb-m34 {
+  margin: -34px 0;
 }
-.width-400{
-	width:400px;
-	float:left
+
+.width-580 {
+  width: 580px;
+  float: left;
 }
-ul{
-	list-style: disc;
-	margin-left: 20px;
-	line-height: 27px;
+
+.width-400 {
+  width: 400px;
+  float: left;
 }
-.width-50p{
-	width:50%
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+  line-height: 27px;
 }
-.width-100p{
-	width:100%;
-	overflow: hidden;
+
+.width-50p {
+  width: 50%;
 }
-.padding-top-10{
-	padding-top:10px
+
+.width-100p {
+  width: 100%;
+  overflow: hidden;
 }
-.padding-bottom-10{
-	padding-bottom:10px
+
+.padding-top-10 {
+  padding-top: 10px;
 }
-.float-left{
-	float:left
+
+.padding-bottom-10 {
+  padding-bottom: 10px;
 }
+
+.float-left {
+  float: left;
+}
+
 ::-webkit-input-placeholder {
-   text-align: center;
+  text-align: center;
 }
 
-:-moz-placeholder { /* Firefox 18- */
-   text-align: center;  
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-   text-align: center;  
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
 }
 
-:-ms-input-placeholder {  
-   text-align: center; 
+:-ms-input-placeholder {
+  text-align: center;
 }
-/* section 1*/   
-#section-1{
-	background-image: url(../images/background-1.jpg);
-	overflow: hidden;
-	height: 540px;
+
+/* section 1*/
+#section-1 {
+  background-image: url(../images/background-1.jpg);
+  overflow: hidden;
+  height: 540px;
 }
-#section-1 #bg-white{
-	background-color: #fff;
-	height: 89px;
-	margin-top: -63px;
-	padding-top: 64px;
-	padding-bottom: 19px;
-	margin-right: -6px;
+
+#section-1 #bg-white {
+  background-color: #fff;
+  height: 89px;
+  margin-top: -63px;
+  padding-top: 64px;
+  padding-bottom: 19px;
+  margin-right: -6px;
 }
-#section-1 .margin-top-20{
-	margin-top: 20px;
+
+#section-1 .margin-top-20 {
+  margin-top: 20px;
 }
-.logo{
-	border-bottom: 6px solid #000000;
-	padding:15px 0px 15px 0px;
-	background-color: #ffffff;
+
+.logo {
+  border-bottom: 6px solid #000000;
+  padding: 15px 0px 15px 0px;
+  background-color: #ffffff;
 }
-.text-3d{
-	color: #ee0000;
-	text-shadow:0px 0px 0 rgb(42,-196,-196),0px 1px 0 rgb(-43,-281,-281),0px 2px 0 rgb(-128,-366,-366), 0px 3px  0 rgb(-213,-451,-451),0px 4px 3px rgba(0,0,0,1),0px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);
+
+.text-3d {
+  color: #ee0000;
+  text-shadow: 0px 0px 0 rgb(42, -196, -196), 0px 1px 0 rgb(-43, -281, -281), 0px 2px 0 rgb(-128, -366, -366), 0px 3px 0 rgb(-213, -451, -451), 0px 4px 3px rgba(0, 0, 0, 1), 0px 4px 1px rgba(0, 0, 0, 0.5), 0px 0px 3px rgba(0, 0, 0, 0.2);
 }
+
 .flex-container {
   padding: 0;
   margin: 0;
   list-style: none;
-  
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
   -webkit-flex-flow: row wrap;
   justify-content: flex-start;
 }
-#section-1 .wrap{
-	padding-top:30px;
-	position: relative;
+
+#section-1 .wrap {
+  padding-top: 30px;
+  position: relative;
 }
-.language-box{
-	position: absolute;
-	top: 0;
-	right: 0;
-	list-style: none;
+
+.language-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  list-style: none;
 }
-.language-box li{
-	display: inline;
-	padding: 5px;
+
+.language-box li {
+  display: inline;
+  padding: 5px;
 }
-.language-box li a:hover{
-	color:#EE0000;
+
+.language-box li a:hover {
+  color: #EE0000;
 }
-form{
-	margin-left: -170px;
+
+form {
+  margin-left: -170px;
 }
-.form-name, 
+
+.form-name,
 .form-email,
-.form-submit{
-    width: 333px;
-    border-radius: 20px;
-    border-style: none;
+.form-submit {
+  width: 333px;
+  border-radius: 20px;
+  border-style: none;
 }
+
 /*div{
 	border:1px dashed red;
 }*/
-.form-name, 
-.form-email{
-	height: 40px;
+.form-name,
+.form-email {
+  height: 40px;
 }
-.form-submit{
-	box-shadow:-2px 0px 25px #FA0000;
-	background: #fc0000;
-	background-image: -webkit-linear-gradient(top, #fc0000, #b60000);
-	background-image: -moz-linear-gradient(top, #fc0000, #b60000);
-	background-image: -ms-linear-gradient(top, #fc0000, #b60000);
-	background-image: -o-linear-gradient(top, #fc0000, #b60000);
-	background-image: linear-gradient(to bottom, #fc0000, #b60000); 
-	cursor:pointer;
-	height: 52px;
+
+.form-submit {
+  box-shadow: -2px 0px 25px #FA0000;
+  background: #fc0000;
+  background-image: -webkit-linear-gradient(top, #fc0000, #b60000);
+  background-image: -moz-linear-gradient(top, #fc0000, #b60000);
+  background-image: -ms-linear-gradient(top, #fc0000, #b60000);
+  background-image: -o-linear-gradient(top, #fc0000, #b60000);
+  background-image: linear-gradient(to bottom, #fc0000, #b60000);
+  cursor: pointer;
+  height: 52px;
 }
-.hexagon{ 
-    position: relative; 
-    height: 250px; 
-    padding: 0px; 
-    border-left: 203px solid #dfdfdf; 
-    border-right: 203px solid #dfdfdf; 
-    border-bottom: 40px solid transparent; 
-    border-top: 40px solid transparent; 
-    margin-top:-30px
+
+.hexagon {
+  position: relative;
+  height: 250px;
+  padding: 0px;
+  border-left: 203px solid #dfdfdf;
+  border-right: 203px solid #dfdfdf;
+  border-bottom: 40px solid transparent;
+  border-top: 40px solid transparent;
+  margin-top: -30px;
 }
-.jordan{
-	position: relative;
-	right: -425px;
-	bottom: 247px;
-	z-index: 1;
+
+.jordan {
+  position: relative;
+  right: -425px;
+  bottom: 247px;
+  z-index: 1;
 }
-/* section 2*/   
-#section-2{
-	background-image: url(../images/background-2.jpg);
-	overflow: hidden;
+
+/* section 2*/
+#section-2 {
+  background-image: url(../images/background-2.jpg);
+  overflow: hidden;
 }
+
 /* section 3*/
 #section-3 {
-    background-image: url(../images/background-3.jpg);
-    overflow: hidden;
+  background-image: url(../images/background-3.jpg);
+  overflow: hidden;
 }
+
 /* section 4*/
 #section-4 {
-    background-image: url(../images/background-4.jpg);
-    overflow: hidden;
+  background-image: url(../images/background-4.jpg);
+  overflow: hidden;
 }
+
 /* section 5*/
 #section-5 {
-    background-image: url(../images/background-5.jpg);
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;
+  background-image: url(../images/background-5.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
 }
-.txt-5{
-	padding-left: 40px;
-	position: relative;
-	margin-top: 40px;
+
+.txt-5 {
+  padding-left: 40px;
+  position: relative;
+  margin-top: 40px;
 }
-.txt-5 .span-5{
-	position: absolute;
-	left: 40px;
-	bottom: 57px;
+
+.txt-5 .span-5 {
+  position: absolute;
+  left: 40px;
+  bottom: 57px;
 }
+
 /* section 6*/
-#section-6{
-	background-color: #fff;
-	width: 100%;
-	overflow: hidden;
-	height: 204px;
+#section-6 {
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+  height: 204px;
 }
-#section-6 .txt-6{
-	margin-top: 35px;
-	position: relative;
-	width: 306px;
+
+#section-6 .txt-6 {
+  margin-top: 35px;
+  position: relative;
+  width: 306px;
 }
-#section-6 .txt-6 .span-6-1
- {
-    position: absolute;
-    top: 10px;
-    right: 5px;
+
+#section-6 .txt-6 .span-6-1 {
+  position: absolute;
+  top: 10px;
+  right: 5px;
 }
-#section-6 .txt-6 .span-6-2{
-		position: absolute;
-	}
-#section-6 .glasses{
-	margin:25px 60px;
+
+#section-6 .txt-6 .span-6-2 {
+  position: absolute;
 }
+
+#section-6 .glasses {
+  margin: 25px 60px;
+}
+
 #section-6 .glasses-txt {
-    padding-top: 33px;
+  padding-top: 33px;
 }
+
 /* section 7*/
-#section-7{
-	background-image: url(../images/background-7.jpg);
-	-moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-	overflow: hidden;
-	width: 100%;
+#section-7 {
+  background-image: url(../images/background-7.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
 }
-#section-7 .txt-7{
-	margin-left: 27px;
-	line-height: 36px;
-	margin-top: 80px;
-	position: relative;
+
+#section-7 .txt-7 {
+  margin-left: 27px;
+  line-height: 36px;
+  margin-top: 80px;
+  position: relative;
 }
-#section-7 .txt-7 .span-7-1{
-	position: absolute;
-	left: 72px;
-	bottom: 51px;
+
+#section-7 .txt-7 .span-7-1 {
+  position: absolute;
+  left: 72px;
+  bottom: 51px;
 }
+
 #section-7 .txt-7 .span-7-2 {
-    position: absolute;
-    top: 69px;
-    left: 15px;
+  position: absolute;
+  top: 69px;
+  left: 15px;
 }
-#section-7 .txt-watch{
-	position: relative;
+
+#section-7 .txt-watch {
+  position: relative;
 }
-#section-7 .watch{
-	position: absolute;
-	top: 34px;
-	right: -12em;
+
+#section-7 .watch {
+  position: absolute;
+  top: 34px;
+  right: -12em;
 }
+
 /* section 8*/
-#section-8{
-	background: #fff;
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-}#section-8 .wrap{
-	width: 1000px;
+#section-8 {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
-#section-8 .txt-8{
-	position: relative;
-	margin-left: -202px;
-	margin-top: 59px;
+
+#section-8 .wrap {
+  width: 1000px;
 }
-.txt-8 .span-8-1{
-	position: absolute;
-	top: 10px;
-	right: 105px;
+
+#section-8 .txt-8 {
+  position: relative;
+  margin-left: -202px;
+  margin-top: 59px;
 }
-#section-8 .txt-8 .span-8-2{
-	position: absolute;
-	left: 0;
-	bottom: 25px;
+
+.txt-8 .span-8-1 {
+  position: absolute;
+  top: 10px;
+  right: 105px;
 }
-#section-8 .pen{
-	position: relative;
-	left: -129px;
+
+#section-8 .txt-8 .span-8-2 {
+  position: absolute;
+  left: 0;
+  bottom: 25px;
 }
+
+#section-8 .pen {
+  position: relative;
+  left: -129px;
+}
+
 /* section 9*/
-#section-9{
-	background-image: url(../images/background-9.jpg);
-	-moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-	overflow: hidden;
-	width: 100%;
-	height: 206px;
+#section-9 {
+  background-image: url(../images/background-9.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 206px;
 }
-#section-9 .iphone-img{
-	position: relative;
-	top: -20px;
-	left: 50px;
+
+#section-9 .iphone-img {
+  position: relative;
+  top: -20px;
+  left: 50px;
 }
-#section-9 .iphone-txt{
-	margin-left: 72px;
-	margin-top: 50px;
-	position: relative;
+
+#section-9 .iphone-txt {
+  margin-left: 72px;
+  margin-top: 50px;
+  position: relative;
 }
-#section-9 .iphone-txt .span-9{
-	position: absolute;
-	left: 0px;
-	bottom: 50px;
+
+#section-9 .iphone-txt .span-9 {
+  position: absolute;
+  left: 0px;
+  bottom: 50px;
 }
+
 /* section 10*/
-#section-10{
-	background: #fff;
-	overflow: hidden;
-	height: 205px;
+#section-10 {
+  background: #fff;
+  overflow: hidden;
+  height: 205px;
 }
-#section-10 .txt-10{
-	margin-left: 50px;
-	margin-top: 20px;
+
+#section-10 .txt-10 {
+  margin-left: 50px;
+  margin-top: 20px;
 }
+
 /* section 11*/
-#section-11{
-	background: #000;
-	overflow: hidden;
-	width: 100%;
+#section-11 {
+  background: #000;
+  overflow: hidden;
+  width: 100%;
 }
+
 /* section 12*/
-#section-12{
-	background-image: url(../images/background-12.jpg);
-	-moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-	overflow: hidden;
-	width: 100%;
-	height: 204px;
+#section-12 {
+  background-image: url(../images/background-12.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 204px;
 }
-#section-12 .wrap{
-	width: 1029px;
+
+#section-12 .wrap {
+  width: 1029px;
 }
-#section-12 .txt-12{
-	margin-left: 44px;
+
+#section-12 .txt-12 {
+  margin-left: 44px;
 }
-#section-12 .letter-spacing-m22{
-	letter-spacing: -39px;
+
+#section-12 .letter-spacing-m22 {
+  letter-spacing: -39px;
 }
+
 /* section 13*/
-#section-13{
-	background: #fff;
-	overflow: hidden;
-	width: 100%;
-	height: 203px;
+#section-13 {
+  background: #fff;
+  overflow: hidden;
+  width: 100%;
+  height: 203px;
 }
-#section-13 .letter-spacing-m22{
-	letter-spacing: -61px;
+
+#section-13 .letter-spacing-m22 {
+  letter-spacing: -61px;
 }
-#section-13 .watch-rolex{
-	margin-left: 80px;
+
+#section-13 .watch-rolex {
+  margin-left: 80px;
 }
-#section-13 .txt-13{
-	margin-top: 40px;
-	line-height: 37px;
-	position: relative;
+
+#section-13 .txt-13 {
+  margin-top: 40px;
+  line-height: 37px;
+  position: relative;
 }
+
 #section-13 .txt-13 .span-13 {
-    position: absolute;
-    left: 0;
-    bottom: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
 }
+
 /* section 14*/
-#section-14{
-	background-image: url(../images/background-14.jpg);
-	-moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-	overflow: hidden;
-	width: 100%;
+#section-14 {
+  background-image: url(../images/background-14.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
 }
-#section-14 .wrap{
-	width: 1000px;
-	position: relative;
+
+#section-14 .wrap {
+  width: 1000px;
+  position: relative;
 }
-#section-14 .txt-14{
-	padding-top:25px; 
-	width: 583px;
+
+#section-14 .txt-14 {
+  padding-top: 25px;
+  width: 583px;
 }
+
 #section-14 .txt-14 .span-14 {
-    position: absolute;
-    left: 0px;
-    bottom: 7px;
+  position: absolute;
+  left: 0px;
+  bottom: 7px;
 }
-#section-14 .num-350{
-	width: 398px;
+
+#section-14 .num-350 {
+  width: 398px;
 }
-#section-14 .premio-14{
-	margin-right: 225px;
+
+#section-14 .premio-14 {
+  margin-right: 225px;
 }
-#section-14 .letter-spacing-m22{
-	letter-spacing: -40px;
+
+#section-14 .letter-spacing-m22 {
+  letter-spacing: -40px;
 }
+
 .submit-button {
   margin: 50px auto;
   width: 750px;
@@ -430,7 +512,7 @@ form{
   -webkit-border-radius: 13;
   -moz-border-radius: 13;
   border-radius: 13px;
-  box-shadow:-2px 0px 25px #FA0000;
+  box-shadow: -2px 0px 25px #FA0000;
   text-shadow: 0px 1px 3px #666666;
   font-family: Arial;
   color: #ffffff;
@@ -438,6 +520,7 @@ form{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
+
 .submit-button:hover {
   background: #E40A0A;
   background-image: -webkit-linear-gradient(top, #FC6E7C, #e90000);
@@ -448,633 +531,810 @@ form{
   text-decoration: none;
   cursor: pointer;
 }
+
 .button-exit {
-    background: #F10404;
-    width: 30px;
-    height: 30px;
-    margin: -5px -5px 0px 0px;
-    border: 3px solid #000;
-    border-radius: 50%;
-    cursor: pointer;
+  background: #F10404;
+  width: 30px;
+  height: 30px;
+  margin: -5px -5px 0px 0px;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 /* mobile style*/
 @media only screen and (max-width: 1400px) {
-	#section-1 .jordan{
-		bottom: 216px;
-	}
-	.txt-5{
-		margin-top: 50px;
-	}
-	.txt-5 .span-5{
-		bottom: 38px;
-	}
-	#section-5 img{
-		width: 15em;
-	}
-	#section-6{
-		height: 181px;
-	}
-	#section-6 img{
-		width: 14em;
-	}
-	.margin-left-100{
-		margin-left: 80px;
-	}
-	#section-6 .txt-6{
-		width: 165px;
-	}
-	#section-6 .txt-6 .span-6-1{
-		width: 10px;
-	}
-	#section-6 .txt-6 .span-6-2{
-		left: 0;
-		bottom: 53px;
-	}
-	#section-8 .txt-8{
-		margin-left: -185px;
-		top: 0px;
+  #section-1 .jordan {
+    bottom: 216px;
+  }
 
-	}
-	#section-8 .txt-8 .span-8-1{
-		right: 102px;
-	}
-	#section-8 .txt-8 .span-8-2{
-		bottom: 23px;
-	}
-	#section-9{
-		height: 183px;
-	}
-	#section-9 .iphone-img{
-		top: -40px;
-	}
-	#section-9 .iphone-txt .span-9{
-		bottom: 60px;
-	}
-	#section-10{
-		height: auto;
-	}
-	#section-12{ 
-		height: 181px;
-	}
-	#section-13{
-		height: auto;
-	}
-	#section-13 .watch-rolex{
-		width: 127px;
-	}
-	#section-13 .txt-13 .span-13{
-		bottom: -2px;
-	}
-	#section-14 .txt-14{
-		padding-top: 16px;
-		margin-left: -47px;
-	}
-	
+  .txt-5 {
+    margin-top: 50px;
+  }
+
+  .txt-5 .span-5 {
+    bottom: 38px;
+  }
+
+  #section-5 img {
+    width: 15em;
+  }
+
+  #section-6 {
+    height: 181px;
+  }
+
+  #section-6 img {
+    width: 14em;
+  }
+
+  .margin-left-100 {
+    margin-left: 80px;
+  }
+
+  #section-6 .txt-6 {
+    width: 165px;
+  }
+
+  #section-6 .txt-6 .span-6-1 {
+    width: 10px;
+  }
+
+  #section-6 .txt-6 .span-6-2 {
+    left: 0;
+    bottom: 53px;
+  }
+
+  #section-8 .txt-8 {
+    margin-left: -185px;
+    top: 0px;
+  }
+
+  #section-8 .txt-8 .span-8-1 {
+    right: 102px;
+  }
+
+  #section-8 .txt-8 .span-8-2 {
+    bottom: 23px;
+  }
+
+  #section-9 {
+    height: 183px;
+  }
+
+  #section-9 .iphone-img {
+    top: -40px;
+  }
+
+  #section-9 .iphone-txt .span-9 {
+    bottom: 60px;
+  }
+
+  #section-10 {
+    height: auto;
+  }
+
+  #section-12 {
+    height: 181px;
+  }
+
+  #section-13 {
+    height: auto;
+  }
+
+  #section-13 .watch-rolex {
+    width: 127px;
+  }
+
+  #section-13 .txt-13 .span-13 {
+    bottom: -2px;
+  }
+
+  #section-14 .txt-14 {
+    padding-top: 16px;
+    margin-left: -47px;
+  }
 }
+
 @media only screen and (max-width: 991px) {
-	.wrap{
-		width: 90%;
-	}
-	.margin-tb-m34{
-		margin: -27px 0;
-	}
-	
-	#section-1{
-		height: auto;
-	}
-	#section-1 .wrap{
-		width: 70%;
-	}
-	#section-1 .width-580{
-		width: 100%;
-		text-align: center;
-	}
-	#section-1 .width-400{
-		width: 400px;
-		float: none;
-		margin: 0 auto;
-	}
-	#section-1 img{
-		margin-top:0;
-	}
-	#section-1 .jordan{
-		display: none;
-	}
-	#section-1 #bg-white{
-		padding-top: 35px;
-	}
-	#section-5 img{
-		width: 14em;
-	}
-	.margin-left-50{
-		margin-left: 17px;
-	}
-	.margin-left-100{
-		margin-left: 60px;
-	}
-	#section-6{
-		height: 118px;
-	}
-	#section-6 img{
-		width: 129px;
-	}
-	#section-6 .txt-6{
-		margin-top: 13px;
-	}
-	#section-6 .txt-6 .span-6-1{
-		width: 46px;
-	}
-	#section-6 .txt-6 .span-6-2{
-		bottom: 32px;
-	}
-	#section-7{
-		height: auto;
-	}
-	#section-7 .txt-7{
-		margin-top: 19px;
-		margin-left: 36px;
-	}
-	#section-7 .txt-7 .span-7-1{
-		bottom: 38px;
-	}
-	#section-7 .watch{
-		margin-left: 52px;
-		top: 10px;
-	}
-	#section-8 .pen{
-		width: 11em;
-	}
-	#section-8 .wrap{
-		width: 93%;
-	}
-	#section-8 .txt-8{
-		margin-left: -139px;
-		margin-top: 8px;
-	}
-	#section-8 .txt-8 .span-8-1{
-		right: 90px;
-	}
-	#section-9{
-		height: 120px;
-	}
-	#section-9 .iphone-txt{
-		margin-top: 14px;
-	}
-	#section-9 .iphone-img{
-		width: 153px;
-	}
-	#section-12{
-		height: 169px;
-	}
-	#section-12 .txt-12{
-		margin-top: unset;
-	}
-	#section-13 .txt-13{
-		line-height: 28px;
-	}
-	#section-13 .txt-13 .span-13{
-		bottom: 19px;
-	}
-	#section-13 .watch-rolex{
-		width: 82px;
-	}
-	#section-14 .txt-14{
-		margin-left: -141px;
-	}
-	#section-14 .txt-14 .span-14{
-		left: 85px;
-		bottom: 89px;
-	}
-	#section-14 .wrap{
-		width: 90%;
-	}
-	.submit-button{
-		width: 300px;
-	}
+  .wrap {
+    width: 90%;
+  }
 
+  .margin-tb-m34 {
+    margin: -27px 0;
+  }
 
+  #section-1 {
+    height: auto;
+  }
+
+  #section-1 .wrap {
+    width: 70%;
+  }
+
+  #section-1 .width-580 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #section-1 .width-400 {
+    width: 400px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  #section-1 img {
+    margin-top: 0;
+  }
+
+  #section-1 .jordan {
+    display: none;
+  }
+
+  #section-1 #bg-white {
+    padding-top: 35px;
+  }
+
+  #section-5 img {
+    width: 14em;
+  }
+
+  .margin-left-50 {
+    margin-left: 17px;
+  }
+
+  .margin-left-100 {
+    margin-left: 60px;
+  }
+
+  #section-6 {
+    height: 118px;
+  }
+
+  #section-6 img {
+    width: 129px;
+  }
+
+  #section-6 .txt-6 {
+    margin-top: 13px;
+  }
+
+  #section-6 .txt-6 .span-6-1 {
+    width: 46px;
+  }
+
+  #section-6 .txt-6 .span-6-2 {
+    bottom: 32px;
+  }
+
+  #section-7 {
+    height: auto;
+  }
+
+  #section-7 .txt-7 {
+    margin-top: 19px;
+    margin-left: 36px;
+  }
+
+  #section-7 .txt-7 .span-7-1 {
+    bottom: 38px;
+  }
+
+  #section-7 .watch {
+    margin-left: 52px;
+    top: 10px;
+  }
+
+  #section-8 .pen {
+    width: 11em;
+  }
+
+  #section-8 .wrap {
+    width: 93%;
+  }
+
+  #section-8 .txt-8 {
+    margin-left: -139px;
+    margin-top: 8px;
+  }
+
+  #section-8 .txt-8 .span-8-1 {
+    right: 90px;
+  }
+
+  #section-9 {
+    height: 120px;
+  }
+
+  #section-9 .iphone-txt {
+    margin-top: 14px;
+  }
+
+  #section-9 .iphone-img {
+    width: 153px;
+  }
+
+  #section-12 {
+    height: 169px;
+  }
+
+  #section-12 .txt-12 {
+    margin-top: unset;
+  }
+
+  #section-13 .txt-13 {
+    line-height: 28px;
+  }
+
+  #section-13 .txt-13 .span-13 {
+    bottom: 19px;
+  }
+
+  #section-13 .watch-rolex {
+    width: 82px;
+  }
+
+  #section-14 .txt-14 {
+    margin-left: -141px;
+  }
+
+  #section-14 .txt-14 .span-14 {
+    left: 85px;
+    bottom: 89px;
+  }
+
+  #section-14 .wrap {
+    width: 90%;
+  }
+
+  .submit-button {
+    width: 300px;
+  }
 }
+
 @media only screen and (max-width: 826px) {
-	.margin-top-20{
-		margin-top: 10px;
-	}
-	.modal, .underlay{
-		display: none;
-	}
-	.margin-tb-m34{
-		margin: -21px 0;
-	}
-	.float-right{
-		float: none;
-	}
-	.img-book{
-		width: 200px;
-		margin: 0 auto;
-	}
-	#section-5{
-		height: auto;
-	}
-	#section-5 img{
-		width: 9em;
-	}
-	#section-5 .txt-5{
-		margin-top: 35px;
-		padding-left: 20px;
-	}
-	#section-5 .txt-5 .span-5{
-		left: 20px;
-		top: 45px;
-	}
-	#section-6{
-		height: 111px;
-	}
-	#section-6 .glasses-txt{
-		padding-top: 22px;
-	}
-	#section-6 img{
-		width: 7em;
-	}
-	#section-6 .txt-6 .span-6-1{
-		width: 65px;
-		right: 20px;
-		top: 5px;
-	}
-	#section-6 .txt-6 .span-6-2{
-		bottom: 49px;
-		top: 45px;
-	}
-	#section-7{
-		height: 111px;
-	}
-	#section-7 .txt-7{
-		margin-left: 29px;
-		margin-top: 47px;
-		line-height: 19px;
-	}
-	#section-7 .txt-7 .span-7-2{
-		top: 45px;
-	}
-	#section-7 .watch{
-		margin-left: 65px;
-		float: left;
-		width: 80px;
-	}
-	#section-8 .wrap{
-		width: 90%;
-	}
-	#section-8 .txt-8{
-		left: 35px;
-		top: 0px;
-		margin-top: 25px;
-	}
-	#section-8 .pen{
-		width: 161px;
-	}
-	#section-8 .txt-8 .span-8-1{
-		right: 88px;
-		top: 5px;
-	}
-	#section-8 .txt-8 .span-8-2{
-		bottom: 22px;
-	}
-	#section-9{
-		height: 113px;
-	}
-	#section-9 .iphone-img{
-		width: 138px;
-	}
-	#section-9 .iphone-txt{
-		margin-top: 17px;
-	}
-	#section-9 .iphone-txt .span-9{
-		bottom: 62px;
-	}
-	#section-10 .txt-10{
-		margin-top: 28px;
-	}
-	#section-12{
-		height: 120px;
-	}
-	#section-13 .txt-13{
-		margin-top: 6px;
-	}
-	#section-13 .txt-13 .span-13{
-		bottom: -2px;
-	}
-	#section-13 .watch-rolex{
-		width: 5em;
-	}
-	#section-14 .wrap{
-		width: 90%;
-	}
-	#section-14 .num-350,
-	#section-14 .txt-14{
-		width: unset;
-	}
-	#section-14 .txt-14{
-		margin-left: 26px;
-		padding: 0;
-	}
-	#section-14 .txt-14 .span-14{
-		left: 17px;
-		bottom: 61px;
-	}
-	#section-14 .premio-14{
-		margin-right: 0px;
-	}
-	.submit-button{
-		width: 65%;
-	}
+  .margin-top-20 {
+    margin-top: 10px;
+  }
 
+  .modal, .underlay {
+    display: none;
+  }
 
+  .margin-tb-m34 {
+    margin: -21px 0;
+  }
 
+  .float-right {
+    float: none;
+  }
+
+  .img-book {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  #section-5 {
+    height: auto;
+  }
+
+  #section-5 img {
+    width: 9em;
+  }
+
+  #section-5 .txt-5 {
+    margin-top: 35px;
+    padding-left: 20px;
+  }
+
+  #section-5 .txt-5 .span-5 {
+    left: 20px;
+    top: 45px;
+  }
+
+  #section-6 {
+    height: 111px;
+  }
+
+  #section-6 .glasses-txt {
+    padding-top: 22px;
+  }
+
+  #section-6 img {
+    width: 7em;
+  }
+
+  #section-6 .txt-6 .span-6-1 {
+    width: 65px;
+    right: 20px;
+    top: 5px;
+  }
+
+  #section-6 .txt-6 .span-6-2 {
+    bottom: 49px;
+    top: 45px;
+  }
+
+  #section-7 {
+    height: 111px;
+  }
+
+  #section-7 .txt-7 {
+    margin-left: 29px;
+    margin-top: 47px;
+    line-height: 19px;
+  }
+
+  #section-7 .txt-7 .span-7-2 {
+    top: 45px;
+  }
+
+  #section-7 .watch {
+    margin-left: 65px;
+    float: left;
+    width: 80px;
+  }
+
+  #section-8 .wrap {
+    width: 90%;
+  }
+
+  #section-8 .txt-8 {
+    left: 35px;
+    top: 0px;
+    margin-top: 25px;
+  }
+
+  #section-8 .pen {
+    width: 161px;
+  }
+
+  #section-8 .txt-8 .span-8-1 {
+    right: 88px;
+    top: 5px;
+  }
+
+  #section-8 .txt-8 .span-8-2 {
+    bottom: 22px;
+  }
+
+  #section-9 {
+    height: 113px;
+  }
+
+  #section-9 .iphone-img {
+    width: 138px;
+  }
+
+  #section-9 .iphone-txt {
+    margin-top: 17px;
+  }
+
+  #section-9 .iphone-txt .span-9 {
+    bottom: 62px;
+  }
+
+  #section-10 .txt-10 {
+    margin-top: 28px;
+  }
+
+  #section-12 {
+    height: 120px;
+  }
+
+  #section-13 .txt-13 {
+    margin-top: 6px;
+  }
+
+  #section-13 .txt-13 .span-13 {
+    bottom: -2px;
+  }
+
+  #section-13 .watch-rolex {
+    width: 5em;
+  }
+
+  #section-14 .wrap {
+    width: 90%;
+  }
+
+  #section-14 .num-350,
+  #section-14 .txt-14 {
+    width: unset;
+  }
+
+  #section-14 .txt-14 {
+    margin-left: 26px;
+    padding: 0;
+  }
+
+  #section-14 .txt-14 .span-14 {
+    left: 17px;
+    bottom: 61px;
+  }
+
+  #section-14 .premio-14 {
+    margin-right: 0px;
+  }
+
+  .submit-button {
+    width: 65%;
+  }
 }
+
 @media only screen and (max-width: 625px) {
-	.margin-tb-m34{
-		margin: -15px 0;
-	}
-	#section-1 .wrap{
-		width: 460px;
-	}
-	#section-1 img{
-		margin-top: 0;
-	}
-	#section-3 img{
-		width: 80px;
-	}
-	.img-book{
-		width: 111px;
-	}
-	ul{
-		line-height: 20px;
-	}
-	#section-5{
-		height: auto;
-	}
-	#section-5 img{
-		width: 7em;
-	}
-	#section-5 .txt-5{
-		margin-top: 16px;
-	}
-	#section-5 .txt-5 .span-5{
-		bottom: 15px;
-	}
-	#section-6{
-		height: 91px;
-	}
-	#section-6 img{
-		width: 6em;
-	}
-	#section-6 .glasses{
-		margin: 25px 40px;
-	}
-	#section-6 .txt-6{
-		width: 127px;
-		margin-top: 17px;
-	}
-	#section-6 .txt-6 .span-6-1{
-		right: -11px;
-	}
-	#section-7{
-		height: 91px;
-	}
-	#section-7 .txt-7{
-		line-height: 20px;
-		margin-top: 23px;
-	}
-	#section-7 .watch{
-		top: 6px;
-		width: 66px;
-		right: -8em;
-	}
-	#section-8 .wrap{
-		width: 90%;
-	}
-	#section-8 .pen{
-		width: 133px;
-		left: -85px;
-	}
-	#section-8 .txt-8{
-		left: 72px;
-		top: 0px;
-	}
-	#section-8 .txt-8 .span-8-1{
-		right: 70px;
-		top: 9px;
-	}
-	#section-8 .txt-8 .span-8-2{
-		bottom: 12px;
-	}
-	#section-9 .iphone-img{
-		width: 106px;
-		top: -28px;
-	}
-	#section-9{
-		height: 93px;
-	}
-	#section-9 .iphone-txt{
-		margin-top: 24px;
-		margin-left: 40px;
-	}
-	#section-9 .iphone-txt .span-9{
-		bottom: 33px;
-	}
-	#section-10 .txt-10{
-		margin-top: 17px;
-	}
-	#section-12 .txt-12{
-		margin-left: 27px;
-	}
-	#section-12{
-		height: 81px;
-	}
-	#section-13 .watch-rolex{
-		width: 4em;
-		margin-left: 43px;
-	}
-	#section-13 .txt-13 .span-13{
-		bottom: 2px;
-	}
-	#section-14 .txt-14{
-		margin-left: 11px;
-		margin-top: 10px;
-	}
-	#section-14 .txt-14 .span-14{
-		left: 10px;
-		bottom: 45px;
-	}
-	.submit-button{
-		width: 65%;
-	}
+  .margin-tb-m34 {
+    margin: -15px 0;
+  }
 
+  #section-1 .wrap {
+    width: 460px;
+  }
 
+  #section-1 img {
+    margin-top: 0;
+  }
 
+  #section-3 img {
+    width: 80px;
+  }
+
+  .img-book {
+    width: 111px;
+  }
+
+  ul {
+    line-height: 20px;
+  }
+
+  #section-5 {
+    height: auto;
+  }
+
+  #section-5 img {
+    width: 7em;
+  }
+
+  #section-5 .txt-5 {
+    margin-top: 16px;
+  }
+
+  #section-5 .txt-5 .span-5 {
+    bottom: 15px;
+  }
+
+  #section-6 {
+    height: 91px;
+  }
+
+  #section-6 img {
+    width: 6em;
+  }
+
+  #section-6 .glasses {
+    margin: 25px 40px;
+  }
+
+  #section-6 .txt-6 {
+    width: 127px;
+    margin-top: 17px;
+  }
+
+  #section-6 .txt-6 .span-6-1 {
+    right: -11px;
+  }
+
+  #section-7 {
+    height: 91px;
+  }
+
+  #section-7 .txt-7 {
+    line-height: 20px;
+    margin-top: 23px;
+  }
+
+  #section-7 .watch {
+    top: 6px;
+    width: 66px;
+    right: -8em;
+  }
+
+  #section-8 .wrap {
+    width: 90%;
+  }
+
+  #section-8 .pen {
+    width: 133px;
+    left: -85px;
+  }
+
+  #section-8 .txt-8 {
+    left: 72px;
+    top: 0px;
+  }
+
+  #section-8 .txt-8 .span-8-1 {
+    right: 70px;
+    top: 9px;
+  }
+
+  #section-8 .txt-8 .span-8-2 {
+    bottom: 12px;
+  }
+
+  #section-9 .iphone-img {
+    width: 106px;
+    top: -28px;
+  }
+
+  #section-9 {
+    height: 93px;
+  }
+
+  #section-9 .iphone-txt {
+    margin-top: 24px;
+    margin-left: 40px;
+  }
+
+  #section-9 .iphone-txt .span-9 {
+    bottom: 33px;
+  }
+
+  #section-10 .txt-10 {
+    margin-top: 17px;
+  }
+
+  #section-12 .txt-12 {
+    margin-left: 27px;
+  }
+
+  #section-12 {
+    height: 81px;
+  }
+
+  #section-13 .watch-rolex {
+    width: 4em;
+    margin-left: 43px;
+  }
+
+  #section-13 .txt-13 .span-13 {
+    bottom: 2px;
+  }
+
+  #section-14 .txt-14 {
+    margin-left: 11px;
+    margin-top: 10px;
+  }
+
+  #section-14 .txt-14 .span-14 {
+    left: 10px;
+    bottom: 45px;
+  }
+
+  .submit-button {
+    width: 65%;
+  }
 }
-@media only screen and (max-width: 470px) {
-	.margin-tb-m34{
-		margin: -11px 0;
-	}
-	#section-1 .width-400{
-		width: 100%;
-	}
-	#section-1 img{
-		margin-top: unset;
-	}
-	#section-1 .wrap{
-		width: 90%;
-	}
-	#section-1 .logo{
-		padding: 15px 9px;
-	}
-	#section-1 #bg-white{
-		height: unset;
-		margin-right: unset;
-		margin-top: -71px;
-		background: none;
-	}
-	.hexagon{
-		height: 180px;
-		margin:0 auto;
-	}
-	form{
-		margin-left: unset;
-		margin: 0px 14px;
-	}
-	.form-name, 
-	.form-email{
-		height: 28px;
-	}
-	.form-name, 
-	.form-email, 
-	.form-submit{
-		position: relative;
-		left: -181px;
-		
-	}
-	#section-3 img{
-		width: 70px;
-	}
-	#section-5 img{
-		width: 4em;
-	}
-	#section-5 .txt-5{
-		margin-top: 14px;
-	}
-	#section-5 .txt-5 .span-5{
-		bottom: 45px;
-		left: 18px;
-	}
-	#section-6{
-		height: 57px;
-	}
-	#section-6 img{
-		width: 80px;
-	}
-	#section-6 .txt-6{
-		margin-top: 10px;
-	}
-	#section-6 .margin-left-100{
-		margin-left: 25px;
-	}
-	#section-6 .glasses{
-		margin: 7px 40px;
-	}
-	#section-6 .glasses-txt{
-		padding-top: 8px;
-	}
-	#section-6 .txt-6 .span-6-1{
-		width: 51px;
-		right: 36px;
-		top: 0;
-	}
-	#section-6 .txt-6 .span-6-2{
-		top: 28px;
-	}
-	#section-7{
-		height: 60px;
-	}
-	#section-7 .txt-7{
-		line-height: 12px;
-		margin-top: 10px;
-	}
-	#section-7 .txt-7 .span-7-1{
-		bottom: 16px;
-		left: -12px;
-	}
-	#section-7 .txt-7 .span-7-2{
-		top: 29px;
-	}
-	#section-7 .watch{
-		width: 40px;
-		right: -5em;
-	}
-	#section-8 .wrap{
-		width: 90%;
-	}
-	#section-8 .txt-8{
-		left: 127px;
-		margin-top: 20px;
-	}
-	#section-8 .pen{
-		width: 85px;
-		left: -30px;
-	}
-	#section-8 .txt-8 .span-8-1{
-		right: 52px;
-		top: 0px;
-	}
-	#section-8 .txt-8 .span-8-2{
-		bottom: 4px;
-	}
-	#section-9{
-		height: 59px;
-	}
-	#section-9 .iphone-img{
-		width: 68px;
-		left: 33px;
-	}
-	#section-9 .iphone-txt{
-		margin-top: 7px;
-		margin-left: 25px;
-	}
-	#section-9 .iphone-txt .span-9{
-		bottom: 20px;
-	}
-	#section-10 .txt-10{
-		margin-top: 10px;
-		margin-left: 30px;
-	}
-	#section-12{
-		height: 57px;
-	}
-	#section-12 .txt-12{
-		margin-top: 5px;
-		margin-left: 15px;
-	}
-	#section-13 .txt-13 .span-13{
-		bottom: 7px;
-		left: unset;
-		right: 0;
-	}
-	#section-13 .watch-rolex{
-		width: 40px;
 
-	}
-	#section-14 .wrap{
-		width: 90%;
-	}
-	#section-14 .txt-14{
-		margin-top: 0;
-	}
-	#section-14 .txt-14 .span-14{
-		left: 0;
-		bottom: 30px;
-	}
-	#section-15 .submit-button{
-		width: 200px;
-		margin: 25px auto;
-	}
-	
+@media only screen and (max-width: 470px) {
+  .margin-tb-m34 {
+    margin: -11px 0;
+  }
+
+  #section-1 .width-400 {
+    width: 100%;
+  }
+
+  #section-1 img {
+    margin-top: unset;
+  }
+
+  #section-1 .wrap {
+    width: 90%;
+  }
+
+  #section-1 .logo {
+    padding: 15px 9px;
+  }
+
+  #section-1 #bg-white {
+    height: unset;
+    margin-right: unset;
+    margin-top: -71px;
+    background: none;
+  }
+
+  .hexagon {
+    height: 180px;
+    margin: 0 auto;
+  }
+
+  form {
+    margin-left: unset;
+    margin: 0px 14px;
+  }
+
+  .form-name,
+  .form-email {
+    height: 28px;
+  }
+
+  .form-name,
+  .form-email,
+  .form-submit {
+    position: relative;
+    left: -181px;
+  }
+
+  #section-3 img {
+    width: 70px;
+  }
+
+  #section-5 img {
+    width: 4em;
+  }
+
+  #section-5 .txt-5 {
+    margin-top: 14px;
+  }
+
+  #section-5 .txt-5 .span-5 {
+    bottom: 45px;
+    left: 18px;
+  }
+
+  #section-6 {
+    height: 57px;
+  }
+
+  #section-6 img {
+    width: 80px;
+  }
+
+  #section-6 .txt-6 {
+    margin-top: 10px;
+  }
+
+  #section-6 .margin-left-100 {
+    margin-left: 25px;
+  }
+
+  #section-6 .glasses {
+    margin: 7px 40px;
+  }
+
+  #section-6 .glasses-txt {
+    padding-top: 8px;
+  }
+
+  #section-6 .txt-6 .span-6-1 {
+    width: 51px;
+    right: 36px;
+    top: 0;
+  }
+
+  #section-6 .txt-6 .span-6-2 {
+    top: 28px;
+  }
+
+  #section-7 {
+    height: 60px;
+  }
+
+  #section-7 .txt-7 {
+    line-height: 12px;
+    margin-top: 10px;
+  }
+
+  #section-7 .txt-7 .span-7-1 {
+    bottom: 16px;
+    left: -12px;
+  }
+
+  #section-7 .txt-7 .span-7-2 {
+    top: 29px;
+  }
+
+  #section-7 .watch {
+    width: 40px;
+    right: -5em;
+  }
+
+  #section-8 .wrap {
+    width: 90%;
+  }
+
+  #section-8 .txt-8 {
+    left: 127px;
+    margin-top: 20px;
+  }
+
+  #section-8 .pen {
+    width: 85px;
+    left: -30px;
+  }
+
+  #section-8 .txt-8 .span-8-1 {
+    right: 52px;
+    top: 0px;
+  }
+
+  #section-8 .txt-8 .span-8-2 {
+    bottom: 4px;
+  }
+
+  #section-9 {
+    height: 59px;
+  }
+
+  #section-9 .iphone-img {
+    width: 68px;
+    left: 33px;
+  }
+
+  #section-9 .iphone-txt {
+    margin-top: 7px;
+    margin-left: 25px;
+  }
+
+  #section-9 .iphone-txt .span-9 {
+    bottom: 20px;
+  }
+
+  #section-10 .txt-10 {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  #section-12 {
+    height: 57px;
+  }
+
+  #section-12 .txt-12 {
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  #section-13 .txt-13 .span-13 {
+    bottom: 7px;
+    left: unset;
+    right: 0;
+  }
+
+  #section-13 .watch-rolex {
+    width: 40px;
+  }
+
+  #section-14 .wrap {
+    width: 90%;
+  }
+
+  #section-14 .txt-14 {
+    margin-top: 0;
+  }
+
+  #section-14 .txt-14 .span-14 {
+    left: 0;
+    bottom: 30px;
+  }
+
+  #section-15 .submit-button {
+    width: 200px;
+    margin: 25px auto;
+  }
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background: #ECA81F;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
